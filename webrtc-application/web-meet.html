@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebRTC Video Chat</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <div id="initc" class="initc">
+        <span id="init-heading" class="heading">Initiate Meeting</span>
+        <video class="video" id="localVideoInit" muted autoplay playsinline>
+
+        </video>
+        <input id="user-name" class="input" placeholder="Enter Your Name" />
+        <button id="meet-init" class="button">Initiate</button>
+        <span class="urltxt">Meeting URL</span>
+        <span id="meet-url" class="url">
+
+        </span>
+    </div>
+
+    <div id="container" class="container nodisplay">
+        <div class="main">
+            <div class="video">
+                <video class="local" id="localVideo" autoplay playsinline></video>
+            </div>
+            <div class="controls">
+                <button id="mute-audio">Mute Audio</button>
+                <button id="hang-call">Hang Call</button>
+                <button id="hide-video">Hide Video</button>
+            </div>
+        </div>
+        <div class="details">
+            <span class="heading">Meeting Details</span>
+            <span class="url">
+                URL : <span id="meet-url1"></span>
+            </span>
+            <span class="heading1">People</span>
+            ------------------------------
+            <span id="local-user" class="user">Sudeep Sehgal</span>
+            <span id="remote-user" class="user nodisplay"></span>
+
+            <span class="heading1">Chat</span>
+            ------------------------------
+            <div id="chat-window" class="chat">
+
+
+            </div>
+            <div class="chat-control">
+                <input id="chat-input" class="chat-input" placeholder="type message" />
+                <button id="chat-button" class="chat-button">send</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./meet.js"></script>
+</body>
+
+
+
+
+</html>

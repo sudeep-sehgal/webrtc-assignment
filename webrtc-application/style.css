@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+  }
+
+.initc{
+    margin: auto;
+    width: 35%;
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.initc .heading{
+    font-size: xx-large;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.initc .video{
+    height: 279px;
+    width: 398px;
+    border: none;
+    border-radius: 10px;
+}
+
+.initc .input{
+    display: block;
+    position: absolute;
+    width: 231px;
+    top: 275px;
+    margin-left: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.initc .button{
+    position: absolute;
+    top: 274px;
+    padding: 9px;
+    width: 73px;
+    left: 306px;
+}
+
+.initc .urltxt{
+    margin-top: 20px;
+    display: block;
+}
+
+.initc .url{
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+}
+
+.container{
+    height: 97%;
+    width: 99.5%;
+    border: 0px solid;
+    margin: none;
+    padding: none;
+}
+
+.container .main{
+    width:70%;
+    height:100%;
+    border: 0px solid;
+    float: left;
+}
+
+.container .main .video{
+    width:100%;
+    height:90%;
+    border: 0px solid;
+}
+
+.container .main .video .local{
+    width:100%;
+    height:100%;
+}
+
+.container .main .controls{
+    width:100%;
+    height:10%;
+    border-top: 0px solid;
+    text-align: center;    
+}
+
+.container .main .controls button{
+    width:120px;
+    padding: 8px;
+    margin-top: 17px;
+}
+
+.container .details{
+    width:25%;
+    height:93%;
+    border: 0px solid;
+    float: left;
+    padding: 2%;
+}
+
+.container .details .heading{
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.container .details .url{
+    display: block;
+}
+
+.container .details .heading1{
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.container .details .user{
+    display: block;
+    font-size: medium;
+}
+
+.container .details .chat{
+    overflow-y: scroll;
+    height:55%;
+    width:100%;
+}
+
+.container .details .chat-input{
+    padding: 5px;
+    width:70%;
+}
+
+.nodisplay{
+    display: none;
+}
