@@ -36,8 +36,8 @@ function initUI() {
         btnTxt = "Initiate";
 
         var getUrl = window.location;
-        //var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-        var baseUrl = 'file:///Users/sudeepsehgal/Desktop/webrtc-assignment/webrtc-application/web-meet.html';
+        var baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+        //var baseUrl = 'file:///Users/sudeepsehgal/Desktop/webrtc-assignment/webrtc-application/web-meet.html';
         meetUrl = `${baseUrl}?cid=${callid}`;
     }
 
